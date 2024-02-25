@@ -14,5 +14,5 @@ Feature: Validate Gmail draft functionality
     And User click on send email button
     Then Verify send email display in sent section with subject as "<Email Subject>"
     Examples:
-      | To            | Email Subject | Email Body         |
-      | abc@gmail.com | Incubyte      | Automation QA Test |
+      | To            | Email Subject | Email Body                      |
+      | abc@gmail.com | Incubyte      | Automation QA Test for Incubyte |
